@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'lato';
+    color: #000000;
+    
+}
+
+
+.contenido_productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item{
+   border: 10px;
+   margin: 3px;
+   display: block;
+}
+
+.content{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+}

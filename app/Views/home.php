@@ -1,5 +1,9 @@
 <?php
 
-	include_once 'layout/header.php';
-	echo '<div class="container d-flex justify-content-center"> <h1>Bienvenidos a la pagina de Inicio!</h1>';
-	include_once 'layout/footer.php';
+	$title_tpl = 'Inicio';
+
+    $content_tpl = '';
+
+    include_once '../app/views/layout/base.php';
+?>
+

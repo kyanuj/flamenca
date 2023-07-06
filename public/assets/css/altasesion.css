@@ -1,0 +1,74 @@
+.form-altasesion {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: underline;
+
+}
+
+.inputs-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.botones-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boton1 {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  border:  none;
+  border-radius: 4px;
+  background-color: hsl(293, 39%, 49%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.boton1:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-form1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user {
+  height: 20px;
+  margin-top: 12px;
+}
+
+.registro {
+  margin-right: 20px;;
+}
+
+
+
+
