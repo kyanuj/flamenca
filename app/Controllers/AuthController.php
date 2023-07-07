@@ -26,7 +26,7 @@ class AuthController
 
                 // Redirigir al usuario a la página de inicio después del inicio de sesión exitoso
                 echo "entro". $_SESSION['username'];
-                header('Location: /dashboard');
+                header('Location: /admin/dashboard');
                 exit();
             } else {
                 // Credenciales inválidas, mostrar un mensaje de error o redirigir a la página de inicio de sesión con un mensaje
