@@ -10,6 +10,7 @@ $router->addRoute('/assets/.*', function ($url) use ($router) {
 $router->addRoute('/', 'HomeController@index');
 $router->addRoute('/about', 'HomeController@about');
 $router->addRoute('/contact', 'HomeController@contact');
+$router->addRoute('/products', 'ProductsController@index');
 $router->addRoute('/login', 'AuthController@login');
 $router->addRoute('/logout', 'AuthController@logout');
-$router->addRoute('/dashboard', 'AdminController@dashboard'); // Ruta protegida
+$router->addRoute('/admin/dashboard', 'AdminController@dashboard'); // Ruta protegida
